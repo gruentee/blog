@@ -6,6 +6,10 @@ comments: true
 categories: [Software Development, Version Control, Source Control, Commands]
 ---
 
+Git commands for basic tasks.
+
+<!--more-->
+
 entfernt eine Datei vom Git Index
 
 ```
