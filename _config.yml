@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://c.onstant.in/
+url: http://me.cf.gs
 title: Random thoughts and stuff
 subtitle: …hosted on a RaspberryPi&reg;.
 author: Felix Constantin Kraft
-simple_search: https://www.google.com/search
+simple_search: https://www.duckduckgo.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
