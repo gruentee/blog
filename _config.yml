@@ -7,19 +7,21 @@ title: Random thoughts and stuff
 subtitle: …hosted on a RaspberryPi&reg;.
 author: Felix Constantin Kraft
 simple_search: https://www.duckduckgo.com/search
-description:
+description: Dieses simple Blog dient dem Ausprobieren von octopress und als Gedächtnisstütze. Inhalte sind hauptsächlich Linux, Programmierung, Software-Entwicklung.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
 # Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
+date_format: "%d.%m.%Y"
 
-# RSS / Email (optional) subscription links (change if using something like Feedburner)
+# RSS / Email (opetional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
 subscribe_email:
+category_feeds: false
+
 # RSS feeds can list your email address if you like
-email:
+email: 
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -47,7 +49,7 @@ recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
-titlecase: true       # Converts page and post titles to titlecase
+titlecase: false       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
